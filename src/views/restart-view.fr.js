@@ -5,7 +5,9 @@ const { PromptView, BotTextMessage } = require('botfuel-dialog')
  */
 class RestartView extends PromptView {
   render() {
-    return []
+    return [
+      new BotTextMessage('Nous redémarrons la conversation')
+    ]
   }
 }
 

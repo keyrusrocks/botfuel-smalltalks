@@ -1,0 +1,23 @@
+{
+  "name": "botfuel-smalltalks",
+  "version": "1.0.0",
+  "description": "Smalltalks module for Botfuel framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyrusrocks/botfuel-smalltalks.git"
+  },
+  "keywords": [
+    "botfuel",
+    "smalltalks"
+  ],
+  "author": "Simon Tannai <simon.tannai@keyrus.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/keyrusrocks/botfuel-smalltalks/issues"
+  },
+  "homepage": "https://github.com/keyrusrocks/botfuel-smalltalks#readme"
+}

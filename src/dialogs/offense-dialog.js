@@ -26,16 +26,8 @@ class OffenseDialog extends BaseDialog {
 
     await this.brain.conversationSet(user, 'offenseLevel', offenseLevel)
 
-    if (offenseLevel === 3) {
-      logger.info(`Bot mutted for the user ${user}`)
-    }
-
     return { offenseLevel }
   }
-}
-
-OffenseDialog.params = {
-
 }
 
 module.exports = OffenseDialog

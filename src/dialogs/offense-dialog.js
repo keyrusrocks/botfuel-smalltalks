@@ -34,4 +34,8 @@ class OffenseDialog extends BaseDialog {
   }
 }
 
+OffenseDialog.params = {
+
+}
+
 module.exports = OffenseDialog

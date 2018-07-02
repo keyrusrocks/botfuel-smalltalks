@@ -18,6 +18,8 @@ const RealOrNotView = require(path.join(__dirname, 'src', 'views', 'real-or-not-
 const RestartView = require(path.join(__dirname, 'src', 'views', 'restart-view.js'))
 const ThanksView = require(path.join(__dirname, 'src', 'views', 'thanks-view.js'))
 
+const banMiddleware = require(path.join(__dirname, 'src', 'utils', 'banMiddleware.js'))
+
 module.exports = {
   botfuelModuleRoot: 'src',
   ComplimentDialog,
@@ -28,6 +30,7 @@ module.exports = {
   RealOrNotDialog,
   RestartDialog,
   ThanksDialog,
+
   ComplimentView,
   GoodbyeView,
   GreetingView,
@@ -36,4 +39,6 @@ module.exports = {
   RealOrNotView,
   RestartView,
   ThanksView,
+
+  banMiddleware,
 }

@@ -35,7 +35,7 @@ Update your dependencies into your `package.json`:
 ```
 
 ### 3- Declare module
-You have to adding the module into your bot configuration ([see doc](https://docs.botfuel.io/dialog/modules/overview#adding-a-module-to-the-bot-configuration-file)):
+You have to add the module into your bot configuration ([see doc](https://docs.botfuel.io/dialog/modules/overview#adding-a-module-to-the-bot-configuration-file)):
 
 ```js
 {
@@ -139,7 +139,7 @@ module.exports = OffenseDialog
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 * [Botfuel team](https://www.botfuel.io/en)

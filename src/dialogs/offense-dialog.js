@@ -3,13 +3,13 @@ const { BaseDialog, Logger } = require('botfuel-dialog')
 const logger = Logger('OffenseDialog')
 
 /**
- * Offense dialog
+ * Offense smalltalks dialog
  * @param  {Object}  userMessage Raw user message
  * @param  {Object}  extractedData Extracted data from user's raw message, based on Extractor
  * @return {Promise}
  * @author Simon Tannai <simon.tannai@keyrus.com>
  */
-class OffenseDialog extends BaseDialog {
+class OffenseSmalltalksDialog extends BaseDialog {
   /**
    * Hook before message will be displing
    * @param  {Object}  userMessage      Raw user message
@@ -20,6 +20,16 @@ class OffenseDialog extends BaseDialog {
    * @author Simon Tannai <simon.tannai@keyrus.com>
    */
   async dialogWillDisplay({ user }) {
+    return this.countOffense(user)
+  }
+
+  /**
+   * Count the number of offenses from the user
+   * @param  {String}  user User id
+   * @return {Promise}      Returns number of offense
+   * @author Simon Tannai <simon.tannai@keyrus.com>
+   */
+  async countOffense(user) {
     let offenseLevel = await this.brain.conversationGet(user, 'offenseLevel') || 0
 
     offenseLevel += 1
@@ -30,4 +40,4 @@ class OffenseDialog extends BaseDialog {
   }
 }
 
-module.exports = OffenseDialog
+module.exports = OffenseSmalltalksDialog

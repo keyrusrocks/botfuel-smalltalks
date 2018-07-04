@@ -9,7 +9,7 @@ const logger = Logger('OffenseDialog')
  * @return {Promise}
  * @author Simon Tannai <simon.tannai@keyrus.com>
  */
-class OffenseSmalltalksDialog extends BaseDialog {
+class OffenseDialog extends BaseDialog {
   /**
    * Hook before message will be displing
    * @param  {Object}  userMessage      Raw user message
@@ -20,6 +20,7 @@ class OffenseSmalltalksDialog extends BaseDialog {
    * @author Simon Tannai <simon.tannai@keyrus.com>
    */
   async dialogWillDisplay({ user }) {
+
     return this.countOffense(user)
   }
 
@@ -40,4 +41,4 @@ class OffenseSmalltalksDialog extends BaseDialog {
   }
 }
 
-module.exports = OffenseSmalltalksDialog
+module.exports = OffenseDialog

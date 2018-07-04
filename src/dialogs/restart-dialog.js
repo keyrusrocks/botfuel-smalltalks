@@ -9,7 +9,7 @@ const logger = Logger('RestartDialog')
  * @return {Promise}
  * @author Simon Tannai <simon.tannai@keyrus.com>
  */
-class RestartSmallTalksDialog extends BaseDialog {
+class RestartDialog extends BaseDialog {
   /**
    * Hook before message will be displing
    * @param  {Object}  userMessage      Raw user message
@@ -27,4 +27,4 @@ class RestartSmallTalksDialog extends BaseDialog {
   }
 }
 
-module.exports = RestartSmallTalksDialog
+module.exports = RestartDialog

@@ -7,6 +7,6 @@ const { BaseDialog } = require('botfuel-dialog')
  * @return {Promise}
  * @author Simon Tannai <simon.tannai@keyrus.com>
  */
-class ComplimentSmallTalksDialog extends BaseDialog {}
+class ComplimentDialog extends BaseDialog {}
 
-module.exports = ComplimentSmallTalksDialog
+module.exports = ComplimentDialog

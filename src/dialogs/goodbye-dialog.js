@@ -7,7 +7,7 @@ const { BaseDialog } = require('botfuel-dialog')
  * @return {Promise}
  * @author Simon Tannai <simon.tannai@keyrus.com>
  */
-class GoodbyeSmallTalksDialog extends BaseDialog {
+class GoodbyeDialog extends BaseDialog {
   /**
    * Hook before message will be displing
    * @param  {Object}  userMessage      Raw user message
@@ -30,4 +30,4 @@ class GoodbyeSmallTalksDialog extends BaseDialog {
   }
 }
 
-module.exports = GoodbyeSmallTalksDialog
+module.exports = GoodbyeDialog

@@ -10,7 +10,7 @@ const delays = 3600000
  * @return {Promise}
  * @author Simon Tannai <simon.tannai@keyrus.com>
  */
-class GreetingSmallTalksDialog extends BaseDialog {
+class GreetingDialog extends BaseDialog {
   /**
    * Hook before message will be displing
    * @param  {Object}  userMessage      Raw user message
@@ -41,4 +41,4 @@ class GreetingSmallTalksDialog extends BaseDialog {
   }
 }
 
-module.exports = GreetingSmallTalksDialog
+module.exports = GreetingDialog

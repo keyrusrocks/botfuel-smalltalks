@@ -20,7 +20,7 @@ class OffenseDialog extends BaseDialog {
    * @author Simon Tannai <simon.tannai@keyrus.com>
    */
   async dialogWillDisplay({ user }) {
-
+    logger.debug('In offense dialog')
     return this.countOffense(user)
   }
 

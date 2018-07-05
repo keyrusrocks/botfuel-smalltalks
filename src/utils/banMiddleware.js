@@ -1,7 +1,7 @@
 module.exports = async (context, next, done) => {
   const offenseLevel = await context.brain.conversationGet(context.user, 'offenseLevel') || 0
 
-  if (offenseLevel >= context.config.brain.offenseLimit) {
+  if (offenseLevel >= context.config.custom.offenseLimit) {
     console.log(`Bot muted for user ${context.userMessage.user}`)
 
     await done()

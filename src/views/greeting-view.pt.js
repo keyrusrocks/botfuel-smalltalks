@@ -1,9 +1,9 @@
-const { PromptView, BotTextMessage } = require('botfuel-dialog')
+const { View, BotTextMessage } = require('botfuel-dialog')
 
 /**
  * View associated to campus dialog
  */
-class GreetingView extends PromptView {
+class GreetingView extends View {
   render(userMessage, { alreadyGreeted, makeNewGreet, userData }) {
     const now = new Date()
     const currentHours = now.getHours()

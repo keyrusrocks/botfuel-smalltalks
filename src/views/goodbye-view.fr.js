@@ -1,9 +1,9 @@
-const { PromptView, BotTextMessage } = require('botfuel-dialog')
+const { View, BotTextMessage } = require('botfuel-dialog')
 
 /**
  * View associated to campus dialog
  */
-class GoodbyeView extends PromptView {
+class GoodbyeView extends View {
   render(userMessage, { alreadyGoodbyed }) {
     if (!alreadyGoodbyed) {
       return [

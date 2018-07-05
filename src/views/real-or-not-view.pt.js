@@ -1,9 +1,9 @@
-const { PromptView, BotTextMessage } = require('botfuel-dialog')
+const { View, BotTextMessage } = require('botfuel-dialog')
 
 /**
  * View associated to campus dialog
  */
-class RealOrNotView extends PromptView {
+class RealOrNotView extends View {
   render() {
     return [
       new BotTextMessage('Muito boa pergunta ;)'),

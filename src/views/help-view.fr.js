@@ -1,9 +1,9 @@
-const { PromptView, BotTextMessage, QuickrepliesMessage } = require('botfuel-dialog')
+const { View, BotTextMessage, QuickrepliesMessage } = require('botfuel-dialog')
 
 /**
  * View associated to campus dialog
  */
-class HelpView extends PromptView {
+class HelpView extends View {
   render() {
     return [
       new BotTextMessage('Mon rôle est de répondre à tes questions'),

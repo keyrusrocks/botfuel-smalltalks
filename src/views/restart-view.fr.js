@@ -1,9 +1,9 @@
-const { PromptView, BotTextMessage } = require('botfuel-dialog')
+const { View, BotTextMessage } = require('botfuel-dialog')
 
 /**
  * View associated to campus dialog
  */
-class RestartView extends PromptView {
+class RestartView extends View {
   render() {
     return [
       new BotTextMessage('Nous redémarrons la conversation')

@@ -82,10 +82,10 @@ Into your bot configuration, you have to add the `offenseLimit` key into the `br
 ...
 brain: {
   name: 'memory',
-  // Define the number of offenses before muting the bot
-  custom: {
-    offenseLimit: 3,
-  },
+},
+// Define the number of offenses before muting the bot
+custom: {
+  offenseLimit: 3,
 },
 ...
 ```

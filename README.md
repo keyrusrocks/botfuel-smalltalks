@@ -14,7 +14,7 @@ Smalltalks module for [Botfuel framework](https://github.com/Botfuel/botfuel-dia
 
 * FR
 * EN *(WIP - Smalltalks file)*
-* PT *(WIP - Smalltalks file)*
+* PT
 
 ## How to use
 
@@ -138,6 +138,7 @@ module.exports = OffenseDialog
 ## Contributors
 
 * **Kevin Depuydt** - [Botfuel team](http://www.botfuel.io/en)
+* **Charles Vatin** - [Digital Solutions Architect - LaTam](http://www.keyrus.com)
 
 ## License
 

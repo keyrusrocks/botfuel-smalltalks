@@ -22,7 +22,7 @@ class GreetingView extends View {
 
     if (!alreadyGreeted) {
       return [
-        new BotTextMessage(`${greet} ${userName} :)`),
+        new BotTextMessage(`${greet} ${userName} 😀`),
         new BotTextMessage('Je suis un chatbot. Comment puis je vous aider ?'),
       ]
     }

@@ -6,7 +6,7 @@ const { View, BotTextMessage } = require('botfuel-dialog')
 class OffenseView extends View {
   render(userMessage, { offenseLevel }) {
     return [
-      new BotTextMessage('Oh, don\'t be so rude ;)'),
+      new BotTextMessage('Oh, don\'t be so rude 😉'),
     ]
   }
 }

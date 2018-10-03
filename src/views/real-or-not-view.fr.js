@@ -6,7 +6,7 @@ const { View, BotTextMessage } = require('botfuel-dialog')
 class RealOrNotView extends View {
   render() {
     return [
-      new BotTextMessage('Très bonne questions ;)'),
+      new BotTextMessage('Très bonne questions 😉'),
     ]
   }
 }

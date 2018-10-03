@@ -6,7 +6,7 @@ const { View, BotTextMessage } = require('botfuel-dialog')
 class ThanksView extends View {
   render() {
     return [
-      new BotTextMessage('Your welcome, feel free to ask me something else :)'),
+      new BotTextMessage('Your welcome, feel free to ask me something else 😊'),
     ]
   }
 }

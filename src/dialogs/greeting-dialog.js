@@ -1,7 +1,9 @@
 const path = require('path')
-const { BaseDialog } = require('botfuel-dialog')
+const {
+  BaseDialog,
+} = require('botfuel-dialog')
 
-const delays = 3600000
+const { delays } = require(path.join(__dirname, '..', 'configurations', 'conversation.js'))
 
 /**
  * Greeting dialog
